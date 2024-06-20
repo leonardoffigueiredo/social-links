@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="meCartoon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <img src="meCartoon.jpg" alt="Minha foto">
+        <p id="name">Leonardo F. Figueiredo</p>
+        <p id="address">São Paulo, Brasil</p>
+        <p id="description">"Front-End developer and reader in free times"</p>
+        <button id="github">Github</button>
+        <button id="instagram">Instagram</button>
+        <button id="linkedin">Linkedin</button>
+        <button id="x">X</button>
+    </main>
+</body>
+<script>
+    document.getElementById('github').onclick = function () {
+        window.location.href = 'https://github.com/leonardoffigueiredo';
+    };
+
+    document.getElementById('instagram').onclick = function () {
+        window.location.href = 'https://www.instagram.com/lf.figueiredo';
+    };
+
+    document.getElementById('linkedin').onclick = function () {
+        window.location.href = 'https://www.linkedin.com';
+    };
+
+    document.getElementById('x').onclick = function () {
+        window.location.href = 'https://x.com/';
+    };
+</script>
+
+</html>
